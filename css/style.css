@@ -148,6 +148,10 @@
     font-size: 0.7rem;
 }
 
+.album.artists {
+    border-radius: 50%;
+}
+
 /* footer */
 
 footer {
