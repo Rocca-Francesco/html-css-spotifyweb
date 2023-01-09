@@ -115,6 +115,39 @@
     color: grey;
 }
 
+/* played */
+
+.played {
+    gap: 0.7rem;
+}
+
+
+.songs-titles {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.album {
+    width: 10rem;
+}
+
+.played-cards {
+    text-align: center;
+    width: 10rem;
+}
+
+.songs-names {
+    color: white;
+    font-weight: bold;
+}
+
+.artist {
+    color: grey;
+    font-size: 0.7rem;
+}
+
 /* footer */
 
 footer {
