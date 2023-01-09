@@ -23,6 +23,11 @@
     font-weight: bold;
 }
 
+.sidebar-loghi {
+    display: inline-block;
+    width: 1.2rem;
+}
+
 /* logo */
 .spotify {
     padding: 0.5rem 0;
@@ -45,6 +50,7 @@
 .recall {
     margin-bottom: 1rem;
 }
+
 
 /* playlist */
 
@@ -70,6 +76,13 @@
     height: 1px;
     background-color: grey;
     margin: 10px 0;
+}
+
+.account-img {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: grey;
 }
 
 .account-name {
