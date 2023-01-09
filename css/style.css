@@ -164,6 +164,7 @@ footer {
     position: sticky;
     z-index: 1;
     align-items: center;
+    justify-content: space-between;
 }
 
 .album-riprodotto {
