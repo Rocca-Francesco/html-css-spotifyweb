@@ -29,7 +29,7 @@
 /* logo */
 .spotify {
     padding: 0.5rem 0;
-
+    height: 3rem;
 }
 
 #logospotify {
@@ -79,7 +79,35 @@
     color: white;
 }
 
+/* CONTENT */
+
+.content {
+    width: calc(100vw - 12rem);
+    height: calc(100vh - 5rem);
+}
+
+/* upgrade */
+
+.upgrade {
+    height: 3rem;
+    width: 100%;
+    justify-content: flex-end;
+    position: sticky;
+    z-index: 1;
+    background-color: black;
+}
+
+.upgrade-title {
+    color: white;
+    font-weight: bold;
+    margin: 0.5rem 0.2rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 0.4rem 2rem;
+}
+
 /* footer */
+
 footer {
     background-color: grey;
     height: 5rem;
