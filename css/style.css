@@ -1,14 +1,86 @@
 /* generals */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .all-sections {
-    background-color: black;
+    /* debug */
+    background-color: lightslategrey;
+
     width: 100%;
 }
 
-/* sidebar */
+/* SIDEBAR */
+.sidebar {
+    /* debug */
+    background-color: black;
 
+    width: 12rem;
+    height: calc(100vh - 5rem);
+    padding-left: 0.7rem;
+    color: grey;
+}
+
+.sidebar-titles {
+    color: white;
+    font-weight: bold;
+}
+
+/* logo */
+.spotify {
+    padding: 0.5rem 0;
+
+}
+
+#logospotify {
+    width: 2rem;
+}
+
+#titlespotify {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* recall */
+
+.recall {
+    margin-bottom: 1rem;
+}
+
+/* playlist */
+
+
+.box {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: grey;
+    text-align: center;
+    padding-top: 0.2rem;
+    color: black;
+}
+
+/* account */
+
+.account>span {
+    display: block;
+}
+
+.account-installa {
+    width: calc(100% - 0.7rem);
+    height: 1px;
+    background-color: grey;
+    margin: 10px 0;
+}
+
+.account-name {
+    color: white;
+}
 
 /* footer */
 footer {
     background-color: grey;
-    height: 10rem;
+    height: 5rem;
 }

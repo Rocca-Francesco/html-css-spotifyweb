@@ -10,3 +10,7 @@
 	clear: both;
 	display: table;
 }
+
+ul {
+	list-style: none;
+}

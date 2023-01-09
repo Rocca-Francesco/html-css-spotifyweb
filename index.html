@@ -8,6 +8,16 @@
 	<title>Spotify</title>
 	<link rel="icon" href="./img/favicon.ico">
 
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/utils.css">
 	<link rel="stylesheet" href="./css/style.css">
@@ -16,7 +26,44 @@
 <body>
 	<div class="all-sections">
 		<div class="sidebar">
-			<img id="logospotify" src="./img/logo-small.svg" alt="spotify">
+			<!-- logo -->
+			<div class="spotify">
+				<img id="logospotify" src="./img/logo-small.svg" alt="spotify">
+				<h2 id="titlespotify">Spotify</h2>
+			</div>
+			<!-- sezioni di richiamo / recall -->
+			<section class="recall">
+				<ul>
+					<li><i class="fa-solid fa-house"></i> Home</li>
+					<li><i class="fa-solid fa-magnifying-glass"></i> Cerca</li>
+					<li><i class="fa-solid fa-bookmark"></i> La tua libreria</li>
+				</ul>
+			</section>
+			<!-- playlist -->
+			<section class="playlist">
+				<h2 class="sidebar-titles">PLAYLIST</h2>
+				<div class="playlist-new">
+					<div class="box"><i class="fa-solid fa-plus"></i></div>
+					<span> Crea Playlist</span>
+				</div>
+				<div>
+					<ul>
+						<li>Nome Playlist</li>
+						<li>Nome Playlist</li>
+						<li>Nome Playlist</li>
+						<li>Nome Playlist</li>
+						<li>Nome Playlist</li>
+						<li>Nome Playlist</li>
+						<li>Nome Playlist</li>
+					</ul>
+				</div>
+			</section>
+			<!-- installa / account -->
+			<section class="account">
+				<span><i class="fa-regular fa-circle-down"></i> Installa app</span>
+				<span class="account-installa"></span>
+				<span class="account-name"><i class="fa-solid fa-user-tie"></i> John Doe</span>
+			</section>
 		</div>
 	</div>
 	<footer>
