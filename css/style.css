@@ -117,6 +117,10 @@
 
 /* played */
 
+.content {
+    overflow: auto;
+}
+
 .played {
     gap: 0.7rem;
 }
@@ -155,6 +159,31 @@
 /* footer */
 
 footer {
-    background-color: grey;
+    background-color: #282828;
     height: 5rem;
+    position: sticky;
+    z-index: 1;
+    align-items: center;
+}
+
+.album-riprodotto {
+    width: 3rem;
+    height: 3rem;
+    margin: auto 0.7rem;
+}
+
+.title-riprodotto {
+    color: white;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.artista-riprodotto {
+    color: grey;
+    font-size: 0.7rem;
+}
+
+.liked,
+.saved {
+    color: grey;
 }
