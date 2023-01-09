@@ -4,9 +4,6 @@
 }
 
 .all-sections {
-    /* debug */
-    background-color: lightslategrey;
-
     width: 100%;
 }
 
@@ -84,6 +81,7 @@
 .content {
     width: calc(100vw - 12rem);
     height: calc(100vh - 5rem);
+    background-color: #141922;
 }
 
 /* upgrade */
@@ -94,7 +92,7 @@
     justify-content: flex-end;
     position: sticky;
     z-index: 1;
-    background-color: black;
+    background-color: rgba(00, 00, 00, 0.7);
 }
 
 .upgrade-title {
@@ -104,6 +102,17 @@
     border: 1px solid white;
     border-radius: 2rem;
     padding: 0.4rem 2rem;
+}
+
+/* category */
+
+.category {
+    justify-content: center;
+}
+
+.category-ul>li {
+    margin: 0.7rem;
+    color: grey;
 }
 
 /* footer */
