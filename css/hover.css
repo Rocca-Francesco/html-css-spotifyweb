@@ -1,0 +1,30 @@
+.sidebar-li:hover,
+.category-ul>li:hover,
+.liked:hover,
+.saved:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.box.sidebar-li:hover {
+    background-color: white;
+    color: black;
+}
+
+.upgrade-title:hover {
+    transform: scale(1.2);
+}
+
+.artista-riprodotto:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.player-icons:hover {
+    cursor: pointer;
+}
+
+.start-stop:hover {
+    font-size: 2rem;
+}

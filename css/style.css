@@ -16,6 +16,7 @@
     padding-left: 0.7rem;
     color: grey;
     font-size: 0.7rem;
+    font-weight: bold;
 }
 
 .sidebar-titles {
@@ -28,8 +29,6 @@
     width: 1.2rem;
 }
 
-.
-
 /* logo */
 .spotify {
     padding: 0.5rem 0;
@@ -38,13 +37,7 @@
 
 #logospotify {
     width: 7rem;
-}
-
-#titlespotify {
-    display: inline-block;
-    color: white;
-    font-weight: bold;
-    font-size: 1.5rem;
+    padding: 0.5rem 0;
 }
 
 /* recall */
@@ -59,6 +52,7 @@
 .playlist {
     flex-grow: 1;
     line-height: 1.7rem;
+    overflow: auto;
 }
 
 .box {
@@ -118,7 +112,7 @@
 .upgrade-title {
     color: white;
     font-weight: bold;
-    margin: 0.5rem 0.2rem;
+    margin: 0.5rem 2rem;
     border: 1px solid white;
     border-radius: 2rem;
     padding: 0.4rem 2rem;
@@ -140,6 +134,7 @@
     margin: 0.7rem;
     color: grey;
     font-size: 0.7rem;
+    font-weight: bold;
 }
 
 /* played */
@@ -178,6 +173,7 @@
 .subtitle {
     color: grey;
     font-size: 0.7rem;
+    font-weight: bold;
 }
 
 .album.artists {
@@ -213,6 +209,7 @@ footer {
 .artista-riprodotto {
     color: grey;
     font-size: 0.7rem;
+    font-weight: bold;
 }
 
 .utils-brano {
@@ -239,6 +236,7 @@ footer {
 
 .start-stop {
     font-size: 1.5rem;
+    width: 100%;
 }
 
 .timer {
