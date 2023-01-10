@@ -9,13 +9,13 @@
 
 /* SIDEBAR */
 .sidebar {
-    /* debug */
     background-color: black;
-
+    flex-direction: column;
     width: 12rem;
     height: calc(100vh - 5rem);
     padding-left: 0.7rem;
     color: grey;
+    font-size: 0.7rem;
 }
 
 .sidebar-titles {
@@ -27,6 +27,8 @@
     display: inline-block;
     width: 1.2rem;
 }
+
+.
 
 /* logo */
 .spotify {
@@ -54,6 +56,10 @@
 
 /* playlist */
 
+.playlist {
+    flex-grow: 1;
+    line-height: 1.7rem;
+}
 
 .box {
     display: inline-block;
@@ -61,6 +67,7 @@
     height: 1.5rem;
     background-color: grey;
     text-align: center;
+    line-height: 1.2rem;
     padding-top: 0.2rem;
     color: black;
 }
@@ -97,7 +104,7 @@
     background-color: #141922;
 }
 
-/* upgrade */
+/* header */
 
 .upgrade {
     height: 3rem;
@@ -115,6 +122,12 @@
     border: 1px solid white;
     border-radius: 2rem;
     padding: 0.4rem 2rem;
+}
+
+/* main */
+
+.songs-list {
+    padding-top: 3rem;
 }
 
 /* category */
@@ -151,7 +164,8 @@
 
 .played-cards {
     text-align: center;
-    width: 10rem;
+    max-width: 10rem;
+    width: calc(100% / 6);
     margin: 1rem 0;
 }
 
@@ -169,17 +183,19 @@
     border-radius: 50%;
 }
 
-/* footer */
+/* FOOTER */
 
 footer {
     background-color: #282828;
     height: 5rem;
     width: 100%;
-    position: fixed;
-    z-index: 1;
+    /* position: fixed;
+    z-index: 1; */
     align-items: center;
     justify-content: space-between;
 }
+
+/* brano */
 
 .album-riprodotto {
     width: 3rem;
@@ -198,7 +214,53 @@ footer {
     font-size: 0.7rem;
 }
 
+.utils-brano {
+    margin-left: 2rem;
+}
+
 .liked,
 .saved {
     color: grey;
+    font-size: 0.7rem;
+    margin: 2px;
+}
+
+/* player */
+
+.player-icons {
+    color: white;
+    margin: 0 0.5rem;
+}
+
+.start-stop {
+    font-size: 1.5rem;
+}
+
+.timer {
+    font-size: 0.7rem;
+    color: white;
+}
+
+#riproduzione {
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    border-radius: 50%;
+    color: green;
+}
+
+/* dispositivi */
+
+.dispositivi-icons {
+    font-size: 0.7rem;
+    color: white;
+    margin: 0 0.5rem;
+}
+
+#volume {
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    border-radius: 50%;
+    color: green;
 }
