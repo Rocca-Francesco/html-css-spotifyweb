@@ -16,6 +16,17 @@
     transform: scale(1.2);
 }
 
+.played-song {
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(00, 00, 00, 0.7);
+}
+
+.album:hover {}
+
 .artista-riprodotto:hover {
     color: white;
     text-decoration: underline;
@@ -27,4 +38,17 @@
 
 .start-stop:hover {
     font-size: 2rem;
+}
+
+.vol-up::after {
+    content: "";
+    display: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.vol-up:hover {
+    display: block;
 }
