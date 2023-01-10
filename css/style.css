@@ -101,9 +101,9 @@
 
 .upgrade {
     height: 3rem;
-    width: 100%;
+    width: calc(100% - 12rem);
     justify-content: flex-end;
-    position: sticky;
+    position: fixed;
     z-index: 1;
     background-color: rgba(00, 00, 00, 0.7);
 }
@@ -174,7 +174,8 @@
 footer {
     background-color: #282828;
     height: 5rem;
-    position: sticky;
+    width: 100%;
+    position: fixed;
     z-index: 1;
     align-items: center;
     justify-content: space-between;
