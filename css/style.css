@@ -86,8 +86,8 @@
 }
 
 .account-img {
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
     background-color: grey;
 }
@@ -139,6 +139,7 @@
 .category-ul>li {
     margin: 0.7rem;
     color: grey;
+    font-size: 0.7rem;
 }
 
 /* played */
@@ -155,7 +156,7 @@
 .songs-titles {
     color: white;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .album {
@@ -189,10 +190,10 @@ footer {
     background-color: #282828;
     height: 5rem;
     width: 100%;
-    /* position: fixed;
-    z-index: 1; */
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    z-index: 1;
 }
 
 /* brano */
@@ -227,6 +228,10 @@ footer {
 
 /* player */
 
+.player>div {
+    text-align: center;
+}
+
 .player-icons {
     color: white;
     margin: 0 0.5rem;
@@ -241,12 +246,18 @@ footer {
     color: white;
 }
 
-#riproduzione {
+.riproduzione {
     display: inline-block;
     height: 4px;
-    width: 100px;
-    border-radius: 50%;
-    color: green;
+    width: 12rem;
+    border-radius: 2px;
+    background-color: grey;
+}
+
+.riproduzione.riproduzione-past {
+    display: block;
+    width: 4rem;
+    background-color: white;
 }
 
 /* dispositivi */
@@ -257,10 +268,17 @@ footer {
     margin: 0 0.5rem;
 }
 
-#volume {
+.volume {
     display: inline-block;
     height: 4px;
     width: 100px;
-    border-radius: 50%;
-    color: green;
+    border-radius: 2px;
+    background-color: grey;
+    margin-right: 0.7rem;
+}
+
+.volume.vol-up {
+    display: block;
+    width: 30px;
+    background-color: white;
 }
