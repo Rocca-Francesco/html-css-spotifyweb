@@ -30,14 +30,14 @@
 		<!-- SIDEBAR -->
 		<div class="sidebar d-flex">
 			<!-- logo -->
-			<div class="spotify">
+			<div class="spotify sidebar-li">
 				<img id="logospotify" src="./img/logo.svg" alt="spotify">
 				<img id="logo-small" src="./img/logo-small.svg" alt="spotify">
 			</div>
 			<!-- sezioni di richiamo / recall -->
 			<section class="recall">
 				<ul>
-					<li class="sidebar-li">
+					<li class="sidebar-li sidebar-checked">
 						<svg class="sidebar-loghi" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 							<path
 								d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z"
@@ -65,9 +65,9 @@
 			</section>
 			<!-- playlist -->
 			<section class="playlist">
-				<h2 class="sidebar-playlist">PLAYLIST</h2>
+				<h2 class="sidebar-playlist sidebar-li">PLAYLIST</h2>
 				<div class="playlist-new sidebar-li">
-					<div class="box sidebar-li"><i class="fa-solid fa-plus"></i></div>
+					<div class="box"><i class="fa-solid fa-plus"></i></div>
 					<span> Crea Playlist</span>
 				</div>
 				<div>
@@ -112,7 +112,9 @@
 				<!-- lista categorie / category -->
 				<div class="category d-flex">
 					<ul class="category-ul d-flex">
-						<li>IN EVIDENZA</li>
+						<li class="category-checked d-flex">IN EVIDENZA
+							<span class="checked"></span>
+						</li>
 						<li>PODCAST</li>
 						<li>CLASSIFICHE</li>
 						<li>GENERI E MOOD</li>

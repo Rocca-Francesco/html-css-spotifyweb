@@ -13,7 +13,6 @@
     flex-direction: column;
     width: 12rem;
     height: calc(100vh - 5rem);
-    padding-left: 0.7rem;
     color: grey;
     font-size: 0.7rem;
     font-weight: bold;
@@ -22,6 +21,7 @@
 .sidebar-li {
     display: flex;
     align-items: center;
+    padding-left: 0.9rem;
 }
 
 .sidebar-playlist {
@@ -52,6 +52,11 @@
     margin-bottom: 1rem;
 }
 
+.sidebar-li.sidebar-checked {
+    color: white;
+    border-left: 0.2rem solid lightgreen;
+    padding-left: 0.7rem;
+}
 
 /* playlist */
 
@@ -141,6 +146,19 @@
     color: grey;
     font-size: 0.7rem;
     font-weight: bold;
+}
+
+.category-checked {
+    flex-direction: column;
+    align-items: center;
+}
+
+.checked {
+    width: 40%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: greenyellow;
+    margin-top: 1px;
 }
 
 /* played */
