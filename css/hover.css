@@ -50,7 +50,7 @@
 }
 
 .start-stop:hover {
-    font-size: 1.7rem;
+    transform: scale(1.2);
 }
 
 .vol-up::after {
