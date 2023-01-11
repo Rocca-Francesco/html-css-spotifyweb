@@ -7,7 +7,7 @@
 }
 
 
-.box.sidebar-li:hover {
+.box:hover {
     background-color: white;
     color: black;
 }
@@ -53,15 +53,13 @@
     transform: scale(1.2);
 }
 
-.vol-up::after {
-    content: "";
-    display: none;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: white;
+
+.riproduzione:hover>.dot-bar,
+.volume:hover>.dot-bar {
+    display: block;
 }
 
-.vol-up:hover {
-    display: block;
+.riproduzione.riproduzione-past:hover,
+.volume.vol-up:hover {
+    background-color: greenyellow;
 }

@@ -52,6 +52,10 @@
     margin-bottom: 1rem;
 }
 
+.recall>ul>li {
+    margin: 0.2rem 0;
+}
+
 .sidebar-li.sidebar-checked {
     color: white;
     border-left: 0.2rem solid lightgreen;
@@ -224,6 +228,14 @@ footer {
     justify-content: center;
 }
 
+.dot-bar {
+    display: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
 /* brano */
 
 .brano {
@@ -289,9 +301,11 @@ footer {
 }
 
 .riproduzione.riproduzione-past {
-    display: block;
-    width: 10%;
+    display: flex;
+    width: 30%;
     background-color: white;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 /* dispositivi */
@@ -312,7 +326,9 @@ footer {
 }
 
 .volume.vol-up {
-    display: block;
+    display: flex;
     width: 30%;
     background-color: white;
+    justify-content: flex-end;
+    align-items: center;
 }
