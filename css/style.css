@@ -33,6 +33,7 @@
     display: inline-block;
     width: 1.2rem;
     margin-right: 0.2rem;
+    fill: grey;
 }
 
 /* logo */
@@ -271,7 +272,7 @@ footer {
 
 .riproduzione.riproduzione-past {
     display: block;
-    width: 4rem;
+    width: 10%;
     background-color: white;
 }
 
@@ -294,6 +295,6 @@ footer {
 
 .volume.vol-up {
     display: block;
-    width: 30px;
+    width: 30%;
     background-color: white;
 }
