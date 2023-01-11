@@ -84,3 +84,15 @@
         width: calc(100vw - 2.4rem);
     }
 }
+
+/* BONUS */
+
+@media screen and (max-height:400px) {
+    .upgrade {
+        display: none;
+    }
+
+    .songs-list {
+        padding-top: 0;
+    }
+}
