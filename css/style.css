@@ -252,12 +252,14 @@ footer {
     color: white;
     font-weight: bold;
     font-size: 0.7rem;
+    cursor: pointer;
 }
 
 .artista-riprodotto {
     color: grey;
     font-size: 0.7rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .utils-brano {
@@ -298,6 +300,7 @@ footer {
     width: 12rem;
     border-radius: 2px;
     background-color: grey;
+    cursor: pointer;
 }
 
 .riproduzione.riproduzione-past {
@@ -314,6 +317,7 @@ footer {
     font-size: 0.7rem;
     color: white;
     margin: 0 0.2rem;
+    cursor: pointer;
 }
 
 .volume {
@@ -323,6 +327,7 @@ footer {
     border-radius: 2px;
     background-color: grey;
     margin-right: 0.7rem;
+    cursor: pointer;
 }
 
 .volume.vol-up {

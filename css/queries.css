@@ -6,19 +6,24 @@
 
     }
 
-    .played {
+    /* .played {
         flex-wrap: wrap;
     }
 
     .played-cards {
         width: calc(100% / 4 - 2.1rem);
+    } */
+
+    /* BONUS */
+    .played {
+        overflow: auto;
     }
 }
 
 @media screen and (max-width:720px) {
-    .played-cards {
+    /* .played-cards {
         width: calc(100% / 2 - 1.4rem);
-    }
+    } */
 
     .brano,
     .player,
@@ -37,6 +42,15 @@
         width: 2.4rem;
     }
 
+    .sidebar-li {
+        padding-left: 0.7rem;
+    }
+
+    .sidebar-li.sidebar-checked {
+        padding-left: 0.7rem;
+        border: 0;
+    }
+
     #logospotify,
     .playlist,
     .sidebar-titles,
@@ -52,7 +66,8 @@
 
     .sidebar-dwn {
         width: 1rem;
-        padding-left: 0.1rem;
+        padding-left: 2px;
+        margin-bottom: 2px;
     }
 
     .account-img {
