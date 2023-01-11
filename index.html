@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="./css/utils.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/hover.css">
+	<link rel="stylesheet" href="./css/queries.css">
 </head>
 
 <body>
@@ -31,27 +32,28 @@
 			<!-- logo -->
 			<div class="spotify">
 				<img id="logospotify" src="./img/logo.svg" alt="spotify">
+				<img id="logo-small" src="./img/logo-small.svg" alt="spotify">
 			</div>
 			<!-- sezioni di richiamo / recall -->
 			<section class="recall">
 				<ul>
 					<li class="sidebar-li">
 						<img class="sidebar-loghi" src="./img/home.svg" alt="home">
-						<span>Home</span>
+						<span class="sidebar-titles">Home</span>
 					</li>
 					<li class="sidebar-li">
 						<img class="sidebar-loghi" src="./img/search.svg" alt="search">
-						<span>Cerca</span>
+						<span class="sidebar-titles">Cerca</span>
 					</li>
 					<li class="sidebar-li">
 						<img class="sidebar-loghi" src="./img/libreria.svg" alt="library">
-						<span>La tua libreria</span>
+						<span class="sidebar-titles">La tua libreria</span>
 					</li>
 				</ul>
 			</section>
 			<!-- playlist -->
 			<section class="playlist">
-				<h2 class="sidebar-titles">PLAYLIST</h2>
+				<h2 class="sidebar-playlist">PLAYLIST</h2>
 				<div class="playlist-new sidebar-li">
 					<div class="box sidebar-li"><i class="fa-solid fa-plus"></i></div>
 					<span> Crea Playlist</span>
@@ -71,13 +73,13 @@
 			<!-- installa / account -->
 			<section class="account">
 				<div class="sidebar-li">
-					<img class="sidebar-loghi" src="./img/download.svg" alt="download">
-					<span>Installa app</span>
+					<img class="sidebar-loghi sidebar-dwn" src="./img/download.svg" alt="download">
+					<span class="sidebar-titles">Installa app</span>
 				</div>
 				<span class="account-installa"></span>
 				<div class="sidebar-li">
 					<img class="sidebar-loghi account-img" src="./img/profile.svg" alt="account">
-					<span class="account-name">John Doe</span>
+					<span class="account-name sidebar-titles">John Doe</span>
 				</div>
 			</section>
 		</div>
